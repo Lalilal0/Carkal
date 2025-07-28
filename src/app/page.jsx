@@ -3,6 +3,7 @@
 import Link from 'next/link';
 import Hero from "./Raja/page";
 
+
 export default function Home() {
   return (
     <main className="min-h-screen bg-gray-100 p-6">
@@ -44,13 +45,13 @@ export default function Home() {
   </div>
 
   <nav className="space-x-4">
+     <a href="/" className="text-gray-700 hover:text-blue-100">
+      Home
+    </a>
     <a href="/model" className="text-gray-700 hover:text-blue-100">
       Models
     </a>
-    <a href="/compare" className="text-gray-700 hover:text-blue-700">
-      Compare
-    </a>
-    <a href="/test-drive" className="text-gray-700 hover:text-blue-700">
+    <a href="/test" className="text-gray-700 hover:text-blue-700">
       Test Ride
     </a>
     <a href="/contact" className="text-gray-700 hover:text-blue-700">
